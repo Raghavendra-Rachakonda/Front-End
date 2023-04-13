@@ -1,0 +1,349 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+.clear-fix{
+    clear: both;
+}
+.header{
+    background-color: #111b23;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.header-left{
+    float: left;
+}
+.logo-container{
+    width: 130px;
+    padding-top: 4px;
+    margin-left: 10px;
+    float: left;
+}
+.logo-body,.cart-body,.region-body{
+    font-size: 0px;
+}
+.logo:hover{
+    border: 1.5px solid white;
+    padding: 5px 7px 4px 3px;
+    border-radius: 3px;
+}
+.logo{
+    padding: 6px 0px 5px 4px;
+    width: 102px;
+}
+.in{
+    color: white;
+    position: relative;
+    bottom: 22px;
+    font-size: 14px;
+}
+.sel-addr{
+    color: white;
+    margin: 5px 2px 5px 0px;
+    padding: 9px 9px 11px 28px;
+    float: left;
+    line-height: 0.9;
+}
+.sel-addr:hover{
+    border: 1.5px solid white;
+    border-radius: 3px;
+    padding: 8px 8px 10px 27px;
+}
+.hello-text{
+    color:#ccc; 
+    font-size: 12px;
+}
+.addr{
+    font-size: 14px; 
+    font-weight: bold;
+}
+.nav{
+    background-color: #232f3e;
+}
+.nav-body{
+    padding-left: 11px;   
+}
+.menu{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 11px 9px 11px 22px;
+    float: left;
+}
+.all:link,.all:visited{
+    text-decoration: none;
+}
+.menu:hover{
+    border: 1.5px solid white;
+    padding: 10px 8px 10px 21px;
+}
+.all{
+    color: white;
+    padding-left: 9px;
+    margin: 0px;
+}
+.icon-bar{
+    float: left;
+}
+.icon{
+    color: white;
+    font-size: 14px;
+    padding: 11px 9px;
+    float: left;
+}
+.prime{
+    padding: 11px 21px 11px 9px;
+}
+.new-releases{
+    padding: 11px 7px 11px 9px;
+}
+.amazon-pay{
+    padding: 11px 7px 11px 9px;
+}
+.icon:link,.icon:visited{
+    color: white;
+    text-decoration: none;
+}
+.icon:hover{
+    border: 1.5px solid white;
+    border-radius: 3px;
+    padding: 10px 8px;
+}
+.icon p{
+    margin: 0px;
+}
+.nav-download-app{
+    float: right;
+}
+.download-app-body{
+    padding-left: 18px;
+}
+.nav-download-app img{
+    vertical-align: middle;
+}
+.nav-download-app:hover{
+    border: 1px solid white;
+}
+.header-right{
+    margin: 3px 0px 2px;
+    padding: 2px 0px 1px;
+    float: right;
+}
+.cart-container{
+    margin: 0px 11px 0px 2px;
+    padding: 0px 11px 5px 9px;
+    float: right;
+}
+.cart{
+    width: 35px;
+    padding: 6px 0px 0px 0px;
+}
+.cart-text{
+    color: white; 
+    font-size: 14px; 
+    font-weight: bolder; 
+    position: relative;
+    bottom: 6px;
+    left: 2px;
+}
+.return-container{
+    margin: 0px 0px 0px 2px;
+    padding: 8px 9px 12px 9px;
+    float: right;
+    line-height: 0.9;
+}
+.return-text{
+    color: white;
+    font-size: 12px;
+}
+.policy{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.sign-in-container{
+    margin: 0px 0px 0px 2px;
+    padding: 9px 20px 11px 9px;
+    float: right;
+    line-height: 0.9;
+}
+.hello-sign-in{
+    color: white;
+    font-size: 12px;
+}
+.acc-list{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.region-container{
+    margin: 0px 0px 0px 2px;
+    padding: 16px 20px 5px 9px;
+    float: right;
+}
+.region{
+    width: 20px;
+    padding: 6px 0px 0px 0px;
+}
+.region-text{
+    color: white; 
+    font-size: 13px; 
+    font-weight: bolder; 
+    position: relative;
+    bottom: 2px;
+    left: 5px;
+}
+.ads-container{
+    width: 1500px;
+    margin: auto;
+}
+.ad1{
+    width: 1500px;
+}
+.ad,.poster-text{
+    font-size: 0px;
+}
+.cart-container:hover{
+    border: 1.5px solid white;
+    border-radius: 3px;
+    padding: 0px 9.5px 3.5px 9px;
+}
+.return-container:hover{
+    border: 1.5px solid white;
+    border-radius: 3px;
+    padding: 8px 7.5px 12px 9px;
+}
+.sign-in-container:hover{
+    border: 1.5px solid white;
+    border-radius: 3px;
+    padding: 9px 18.5px 11px 9px;
+}
+.region-container:hover{
+    border: 1.5px solid white;
+    border-radius: 3px;
+}
+.content-section{
+    position: relative;
+    background-color: #e2e2e2;
+}
+.categories{
+    position: relative;
+    bottom: 384px;
+    padding: 0px 10px;
+}
+.categories-body{
+    width: 1480px;
+    padding: 20px 0px;
+    margin: auto;
+}
+.poster{
+    width: 350px;
+    padding: 0px 10px;
+    margin: 10px 0px 8px;
+    float: left;
+}
+.poster-body{
+    padding: 20px 0px 20px;
+    background-color: white;
+}
+.poster-header{
+    padding: 0px 20px;
+    margin: 0px 0px 10px;
+    font-size: 13.99px;
+    line-height: 1.35;
+}
+.poster-header h2{
+    margin: 0px;
+}
+.poster-5,.poster-2,.poster-3{
+    padding: 0px 20px;
+}
+.poster-5-pic{
+    width: 310px;
+    height: 276.4px;
+}
+.poster-footer{
+    padding: 17px 20px 0px 20px;
+}
+.poster-footer-link:link,.poster-footer-link:visited{
+    font-size: 13px;
+    color: #007185;
+    text-decoration: none;
+    font-weight: 540;
+}
+.poster-footer-link:hover{
+    text-decoration: underline;
+    color: rgb(225, 122, 12);
+}
+.poster-1-adj{
+    padding: 8.15px 20px 0px 20px;
+}
+.poster-2-adj{
+    padding: 15.8px 20px 0px 20px;
+}
+.poster-3-adj{
+    padding: 14.55px 20px 0px 20px;
+}
+.poster-5-adj{
+    padding: 14.55px 20px 0px 20px;
+}
+.poster-6-adj{
+    padding: 7.35px 20px 0px 20px;
+}
+.poster-7-adj{
+    padding: 8.15px 20px 0px 20px;
+}
+.poster-8-adj{
+    padding: 8.15px 20px 0px 20px;
+}
+.poster-2-pic{
+    width: 310px;
+    height: 303.7px;
+}
+.poster-4-link{
+    padding: 9px 20px 18px 20px;
+}
+.poster-4-sign-in-link:link{
+   background-color: rgb(255, 217, 0);
+   padding: 8.55px 109px 8.55px;
+   border-radius: 10px;
+   text-decoration: none;
+   font-size: 13px;
+   color: black;
+}
+.poster-4{
+    padding: 21px 25px 0px 25px;
+}
+.poster-4-pic{
+    height: 247.5px;
+    width: 300px;
+}
+.poster-section{
+    padding: 0px 20px;
+}
+.poster-section-body-1{
+    width: 148px;
+    margin: 0px 7px 10px 0px;
+    float: left;
+}
+.poster-section-body-2{
+    width: 148px;
+    margin: 0px 0px 10px 7px;
+    float: left;
+}
+.poster-section-image{
+    height: 102.2px;
+    width: 148px;
+}
+.poster-section-line{
+    margin: 0px;
+    font-size: 12px;
+}
+.poster-section-body-1-adj-6{
+    margin: 0px 7px 24px 0px;
+}
+.poster-section-body-2-adj-6{
+    margin: 0px 0px 24px 7px;
+}

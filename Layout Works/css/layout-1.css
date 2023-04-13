@@ -1,0 +1,215 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Calibri;
+}
+.header{
+    position: relative; 
+}
+.header-container{
+    width: 1170px;
+    margin: auto;
+}
+.logo{
+    width: 287px;
+    margin-top: 12px;
+    padding: 0px 20px 12.7px 20px; ;
+}
+.login-button:link,.login-button:visited{
+    border: 2px solid #00803f;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    padding: 6px 18px;
+    background-color: #00803f;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+    
+}
+.login-button:hover,.lbg-box-link:hover{
+    background-color: white;
+    color: #00803f;
+}
+.nav{
+    background-color: #393939;
+    
+}
+.nav-body{
+    width: 1140px;
+    padding: 13.5px 15px;
+    margin: auto;
+}
+.icons {
+    margin-right: 40px;
+    float: left;
+}
+.home{
+    font-size: 18px;
+    padding: 0px 37px 0px 0px;
+}
+.getstarted,.apiproducts,.brands,.support{
+    font-size: 18px;
+    padding: 0px 37px;
+}
+.top{
+    background-color: #00803f;
+}
+.container{
+    margin: auto;
+    width: 1140px;
+    padding: 0px 15px 45px 15px;
+}
+.name{
+    color: white;
+    font-size: 68px;
+    width: 470px;
+    font-weight: bolder;
+    padding: 28px 0px 38px;
+    line-height: 0.8;
+}
+.container-link:link,.container-link:visited{
+    border: 2px solid #00803f;
+    background-color: white;
+    padding: 15px 58px 15PX 25PX;
+    font-size: 18px;
+    color: #00803f;
+}
+.viewguide{
+    margin: 20px 0px 52PX 0PX;
+}
+.container-link:hover{
+    background-color: #00803f;
+    color: white;
+}
+.content{
+    width: 1140px;
+    margin: auto;
+}
+.section-heading, .lbg-heading{
+    font-size: 25px;
+    font-weight: bolder;
+    border-bottom: 1px solid black;
+    line-height: 2;
+    margin: 0px 0px 20px 0px;
+}
+.sec-box{
+    width: 555px;
+    padding: 0px 15px 20px 0px;
+    float: left;
+}
+.sec-box-right{
+    padding: 0px 0px 20px 15px;
+}
+.sec-box-body{
+    width: 475px;
+    background-color: #eceeec;
+    padding: 12px 40px 40px 40px;
+}
+.sec-box-body-header{
+    line-height: 1.15;
+    font-size: 30px;
+    margin: 30px 0px 25px 0px;
+    font-weight: 1000;
+}
+.sec-box-body-text{
+    width: 440px;
+    height: 60px;
+    margin: 12px 0px;
+    padding: 0px 30px 0px 0px;
+    font-size: 18px;
+}
+.sec-box-link:link,.sec-box-link:visited{
+    color: #00803f;
+    padding: 15px 0px;
+}
+.sec-box-link:hover{
+    color: black;
+}
+.clear{
+    clear: both;
+}
+.lbg,.get-started{
+    width: 1140px;
+    margin: auto;
+}
+.lbg-box{
+    width: 1140px;
+    margin: auto;
+}
+.lbg-box-body{
+    width: 555px;
+    margin: 43px 0px 0px 0px;
+    padding: 0px 15px 0px 0px;
+    float: left;
+}
+.lbg-box-header{
+    margin: 13px 0px 0px 0px;
+    font-size: 36px;
+}
+.lbg-box-text{
+    margin: 30px 0px;
+    font-size: 18px;
+}
+.lbg-box-link:link,.lbg-box-link:visited,.get-started-link:link,.get-started-link:visited{
+    border: 2px solid #00803f;
+    padding: 15px 20px;
+    background-color: #00803f;
+    color: white;
+}
+.lbg-box-link:hover,.get-started-link:hover{
+    background-color: white;
+    color: #00803f;
+}
+.lbg-box-pic{
+    padding: 0px 0px 0px 15px;
+    float: left;
+}
+.get-started{
+    padding: 0px 0px 30px 0px ;
+}
+.footer{
+    background-color: #393939;
+    padding: 8px;
+    
+}
+.footer-body{
+    padding: 32px 0px;
+    width: 1140px;
+    margin: auto;
+}
+.footer-icons{
+    padding: 0px 13px;
+    width: auto;
+    float: left;
+}
+a:link,a:visited {
+    color:white;
+    text-decoration:none;
+}
+a:hover{
+    color: #00803f;
+}
+.sec-box-body-header:hover{
+    color: #00803f;
+}
+.whatsapp{
+    position: fixed;
+    right: 0;
+    top: 160;
+}
+.facebook{
+    position: fixed;
+    right: 0;
+    top: 220;
+}
+.instagram{
+    position: fixed;
+    right: 0;
+    top: 280;
+}
+.twitter{
+    position: fixed;
+    right: 0;
+    top: 340;
+}
